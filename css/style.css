@@ -1,0 +1,205 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+/*header start*/
+header{
+	padding: 25px 0;
+}
+.wrapper {
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+.logo {
+	width: 12%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+	margin-top: 9px;
+}
+.menu {
+	width: 70%;
+	float: right;
+}
+.menu ul{
+	list-style-type: none;
+	float: right;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	margin: 0 50px;
+	padding: 10px 0;
+	color: #626262;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+	transition: 0.3s;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+/*header end*/
+/*banner start*/
+.banner img{
+	width: 100%;
+}
+/*banner end*/
+/*getaway start*/
+.getaway {
+	margin: 30px 0;
+	padding: 50px 0;
+}
+
+.wrapper2 {
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+}
+.common_h4{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.common_title{
+	margin: 20px 0;
+	font-size: 30px;
+	font-weight: 400;
+}
+.common_text{
+	line-height: 22px;
+	margin-bottom: 30px;
+}
+/*getaway end*/
+/*blog start*/
+.blog {
+	margin: 30px 0;
+	padding: 50px 0;
+}
+.card {
+	width: 46%;
+	float: left;
+	margin-bottom: 50px;
+}
+.card:nth-child(even){
+	margin-left: 8%;
+}
+.card img{
+	width: 100%;
+	margin-bottom: 25px;
+	
+}
+/*blog end*/
+/*newsletter start*/
+.newsletter {
+	margin: 30px 0;
+	padding: 50px 0;
+	background-color: #f0f0f0;
+}
+.signup {
+	text-align: center;
+}
+.signup h1{
+	margin-top: 0;
+	margin-bottom: 80px;
+	font-size: 30px;
+	font-weight: 400;
+	color: #333333;
+}
+.signup_form {
+	margin: 0 auto;
+	width: 350px;
+	position: relative;
+}
+.signup_form input{
+	padding-bottom: 10px;
+	padding-right: 10%;
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	font-size: 14px;
+	width: 90%;
+	border: 0;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+}
+.signup_form button{
+	position: absolute;
+	bottom: 25%;
+	right: 0;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	outline: none;
+}
+/*newsletter end*/
+/*load more start*/
+.load_more{
+	margin: 30px 0;
+	padding: 50px 0;
+	text-align: center;
+}
+.load_more button{
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #626262;
+	width: 160px;
+	height: 60px;
+	background-color: transparent;
+	border: 1px solid #626262;
+	outline: none;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.load_more button:hover{
+	color:#fff;
+	background-color: #626262;
+}
+/*load more end*/
+/*footer start*/
+footer{
+	padding: 50px 0;
+	background-color: #f0f0f0;
+}
+.terms{
+	width: 50%;
+	float: left;	
+}
+.icon{
+	width: 40%;
+	float: right;
+}
+.icon ul{
+	float: right;
+}
+.icon span{
+	color: #000;
+}
+footer ul li{
+	margin-right: 25px;
+	list-style-type: none;
+	float: left;
+}
+footer ul li a{
+	color: #000;
+	display: inline-block;
+	text-decoration: none;
+}
+footer ul li:last-child a{
+	margin-right: 0;
+}
+/*footer end*/
