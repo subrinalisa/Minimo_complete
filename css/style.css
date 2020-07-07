@@ -1,3 +1,4 @@
+/*commons*/
 *{
 	margin: 0;
 	padding: 0;
@@ -5,6 +6,22 @@
 body{
 	font-family: 'Playfair Display', serif;
 	color: #626262;
+}
+.common_h4{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.common_title{
+	margin: 20px 0;
+	font-size: 30px;
+	font-weight: 400;
+}
+.common_text{
+	line-height: 22px;
+	margin-bottom: 30px;
 }
 /*header start*/
 header{
@@ -59,7 +76,7 @@ header{
 /*getaway start*/
 .getaway {
 	margin: 30px 0;
-	padding: 50px 0;
+	padding: 60px 0;
 }
 
 .wrapper2 {
@@ -67,27 +84,11 @@ header{
 	width: 80%;
 	overflow: hidden;
 }
-.common_h4{
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 14px;
-	font-weight: 300;
-	color: #b4ad9e;
-	text-transform: uppercase;
-}
-.common_title{
-	margin: 20px 0;
-	font-size: 30px;
-	font-weight: 400;
-}
-.common_text{
-	line-height: 22px;
-	margin-bottom: 30px;
-}
 /*getaway end*/
 /*blog start*/
 .blog {
 	margin: 30px 0;
-	padding: 50px 0;
+	padding: 60px 0;
 }
 .card {
 	width: 46%;
@@ -106,7 +107,7 @@ header{
 /*newsletter start*/
 .newsletter {
 	margin: 30px 0;
-	padding: 50px 0;
+	padding: 60px 0;
 	background-color: #f0f0f0;
 }
 .signup {
@@ -149,7 +150,7 @@ header{
 /*load more start*/
 .load_more{
 	margin: 30px 0;
-	padding: 50px 0;
+	padding: 60px 0;
 	text-align: center;
 }
 .load_more button{
@@ -172,7 +173,7 @@ header{
 /*load more end*/
 /*footer start*/
 footer{
-	padding: 50px 0;
+	padding: 60px 0;
 	background-color: #f0f0f0;
 }
 .terms{
