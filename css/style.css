@@ -75,7 +75,6 @@ header{
 /*banner end*/
 /*getaway start*/
 .getaway {
-	margin: 30px 0;
 	padding: 60px 0;
 }
 
@@ -87,7 +86,6 @@ header{
 /*getaway end*/
 /*blog start*/
 .blog {
-	margin: 30px 0;
 	padding: 60px 0;
 }
 .card {
@@ -106,8 +104,7 @@ header{
 /*blog end*/
 /*newsletter start*/
 .newsletter {
-	margin: 30px 0;
-	padding: 60px 0;
+	padding: 120px 0;
 	background-color: #f0f0f0;
 }
 .signup {
@@ -126,12 +123,12 @@ header{
 	position: relative;
 }
 .signup_form input{
-	padding-bottom: 10px;
-	padding-right: 10%;
+	padding: 10px;
+	padding-right: 32px;
 	font-family: 'Playfair Display', serif;
 	color: #626262;
 	font-size: 14px;
-	width: 90%;
+	width: 88%;
 	border: 0;
 	border-bottom: 1px solid #000;
 	background: transparent;
@@ -149,7 +146,6 @@ header{
 /*newsletter end*/
 /*load more start*/
 .load_more{
-	margin: 30px 0;
 	padding: 60px 0;
 	text-align: center;
 }
@@ -180,14 +176,14 @@ footer{
 	width: 50%;
 	float: left;	
 }
-.icon{
+.social{
 	width: 40%;
 	float: right;
 }
-.icon ul{
+.social ul{
 	float: right;
 }
-.icon span{
+.social span{
 	color: #000;
 }
 footer ul li{
